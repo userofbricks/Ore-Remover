@@ -1,0 +1,33 @@
+modLoader="javafml" #mandatory
+loaderVersion="[39,)" #mandatory
+license="All rights reserved"
+#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
+
+[[mods]] #mandatory
+modId="ore_remover" #mandatory
+version="${version}" #mandatory
+displayName="Ore Remover" #mandatory
+#updateJSONURL="https://change.me.example.invalid/updates.json" #optional
+#displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
+# A file name (in the root of the mod JAR) containing a logo for display
+logoFile="examplemod.png" #optional
+#credits="" #optional
+authors="Userofbricks" #optional
+# The description text for the mod (multi line!) (#mandatory)
+description='''
+This mod is for mod packs and is used to disable certain ores from spawning
+'''
+
+[[dependencies.ore_remover]]
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[39,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.1,1.19)"
+    ordering="NONE"
+    side="BOTH"
