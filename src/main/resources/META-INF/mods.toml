@@ -1,7 +1,7 @@
 modLoader="javafml" #mandatory
 loaderVersion="[39,)" #mandatory
 license="All rights reserved"
-#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
+issueTrackerURL="https://github.com/userofbricks/Ore-Remover/issues" #optional
 
 [[mods]] #mandatory
 modId="ore_remover" #mandatory
