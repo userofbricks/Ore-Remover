@@ -42,7 +42,7 @@ public class OreRemover {
 
     private void configSetuo() {
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, CommonConfig.COMMON_CONFIG);
-        CommonConfig.loadConfig(CommonConfig.COMMON_CONFIG, FMLPaths.CONFIGDIR.get().resolve("geolosys-common.toml"));
+        CommonConfig.loadConfig(CommonConfig.COMMON_CONFIG, FMLPaths.CONFIGDIR.get().resolve("ore_remover-common.toml"));
     }
 
     private void setup(final FMLCommonSetupEvent event) {
